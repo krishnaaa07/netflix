@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sens-serif;
+    box-sizing: border-box;
+    }
+    body{
+    background: black;
+    color: red;
+    }
+    .header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    } 
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    }
+    .logo{
+    width: 150px;
+    cursor: pointer:
+    }
+    nav button{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    }
+    .language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+    }
+    .language-btn img{
+    width: 10px;
+    margin-left: 10px;
+    }
+    .header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+    }
+    .header-content h1{
+    text-align: left;
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    color: white;
+    }
+    .header-content h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    }
+    .header-content p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    }
+    .email-signup{
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+    }
+    .email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    }
+    .email-signup button{
+    background: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px;
+    }
+    .features{
+    padding: 50px 12%;
+    font-size: 22px;
+    }
+    .row{
+    display: flex;
+    width: 100%;
+    align-items: left;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    }
+    .text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    }
+    .img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    }
+    .img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+    align: right;
+    }
+    .features h2{
+    color: blue;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    }
+    .features p{
+    color: purple;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    body{
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1170px;
+        margin:auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer{
+        background-color: #24262b;
+        padding: 70px 0;
+    }
+    .footer-col{
+       width: 25%;
+       padding: 0 15px;
+    }
+    .footer-col h4{
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: #e91e63;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255,255,255,0.2);
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    .footer-col .social-links a:hover{
+        color: #24262b;
+        background-color: #ffffff;
+    }
+    
+    /responsive/
+    @media(max-width: 767px){
+      .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 574px){
+      .footer-col{
+        width: 100%;
+    }
+    }
